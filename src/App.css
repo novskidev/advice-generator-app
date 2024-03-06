@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  position: relative;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  padding: 30px;
+  border-radius: 20px;
+  font-family: "Manrope", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  gap: 30px;
+}
+
+.card h2 {
+  color: hsl(150, 100%, 66%);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card p {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.card button {
+  position: absolute;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  bottom: 0;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  background-color: hsl(150, 100%, 66%);
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.card button:hover {
+  font-size: 18px;
+}
