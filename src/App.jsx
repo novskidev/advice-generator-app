@@ -5,7 +5,9 @@ function App() {
   const [advice, setAdvice] = useState({});
 
   const fetchAPI = () => {
-    fetch('https://api.adviceslip.com/advice')
+    fetch('https://api.adviceslip.com/advice', {
+      cache: 'no-cache',
+    })
       .then((res) => res.json())
       .then((data) => setAdvice(data.slip))
   }
