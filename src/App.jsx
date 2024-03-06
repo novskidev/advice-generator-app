@@ -32,7 +32,7 @@ function App() {
             </g>
           </g>
         </svg>
-        <button onClick={handleAnotherAdvice}>Another Advice</button>
+        <button onClick={handleAnotherAdvice}>Get Advice</button>
       </div>
     </div>
   )
